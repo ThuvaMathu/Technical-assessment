@@ -1,0 +1,89 @@
+.LandingPage{
+height: '100%';
+background-color: #ede5ff;
+}
+.LandingPage-Heading {
+font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    /* or 100% */
+    text-align: right;
+    color: #240D57;
+}
+.Responsive-Height{
+height: 100vh;
+}
+.LandingPage-Subheading {
+font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+
+    color: #4F4F4F;
+}
+
+.LandingPage-snapchat {
+font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: right;
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+   
+}
+
+.LandingPage-button{
+    width: 320px;
+        height: 55px;
+      
+        
+    
+        background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+        border-radius: 10px;
+}
+.Birthday-Bash{
+    font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 55px;
+        display: flex;
+        align-items: center;
+    margin: 0;
+        color: #240D57;
+}
+.Birthday-Bash-secondary {
+font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+margin: 0;
+    color: #828282;
+}
+.BirthdayCakeImg{
+    max-width: 500px;
+}
+@media only screen and (max-width: 900px) {
+    .LandingPage-Heading {
+            text-align: center;
+        }
+.BirthdayCakeImg {
+    max-width: 400px;
+}
+        .Responsive-Height {
+            height: 100%;
+        }
+        .LandingPage-Subheading {
+            text-align: center;
+        }
+}
